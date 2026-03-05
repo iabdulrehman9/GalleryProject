@@ -4,7 +4,7 @@ const Card = (props) => {
   return (
     <div>
       <a href={props.elem.url} target='_blank'>
-          <div className='h-40 w-44 overflow-hiden rounded-xl ' key={idx}>
+          <div className='h-40 w-44 overflow-hiden rounded-xl'>
         <img className='h-full w-full object-cover' src={props.elem.download_url} alt="" />
       </div>
       <h2 className='font-bold text-lg'>{props.elem.author}</h2>
